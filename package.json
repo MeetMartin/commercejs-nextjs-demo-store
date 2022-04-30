@@ -9,7 +9,8 @@
     "deploy": "next build && next export",
     "lint": "eslint components lib pages store utils",
     "lint:fix": "eslint --fix components lib pages store utils",
-    "seed": "chec-seed seeds"
+    "seed": "chec-seed seeds",
+    "legacy": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
